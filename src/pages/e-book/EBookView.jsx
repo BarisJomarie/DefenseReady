@@ -79,6 +79,23 @@ export const EBookView = () => {
     })
   }
 
+  const handleExternalLinks = (contents) => {
+  const epubDocument = contents.document;
+  const externalLinks = epubDocument.querySelectorAll('a[href^="http"]');
+
+  externalLinks.forEach((link) => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault(); // Stop the iframe from trying to open it
+      const url = link.getAttribute('href');
+      
+      // Open the YouTube link safely
+      if (url) {
+        window.top.open(url, '_blank', 'noopener,noreferrer');
+      }
+    });
+  });
+};
+
   const applyTailwindTheme = () => {
     if (!renditionRef.current) return;
     const bodyStyles = getComputedStyle(document.body);
@@ -186,6 +203,7 @@ export const EBookView = () => {
             });
             rendition.hooks.content.register((contents) => {
               syncEpubCheckboxes(contents);
+              handleExternalLinks(contents);
             });
           }}
         />

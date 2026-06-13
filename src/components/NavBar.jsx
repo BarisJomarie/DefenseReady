@@ -8,6 +8,7 @@ const navItems = [
   { label: 'About', href: '#about' }
 ];
 
+
 export const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

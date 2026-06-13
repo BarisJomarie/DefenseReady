@@ -1,13 +1,15 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import {Homepage} from '@/pages/Homepage'
+import {Homepage} from '@/pages/homepage/Homepage'
 import {NotFound} from '@/pages/NotFound'
+import { EBookView } from '@/pages/e-book/EBookView'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route index element={<Homepage />} />
         <Route path="*" element={<NotFound />} />
+        <Route path='/e-book' element={<EBookView/>}/>
       </Routes>
     </BrowserRouter>
   )

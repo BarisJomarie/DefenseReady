@@ -1,8 +1,10 @@
 import { ArrowDown, ArrowUp } from "lucide-react";
 import logo from '@/assets/logo2.svg';
 import heroBg from '@/assets/hero-bg.png';
+import { useNavigate } from "react-router-dom";
 
 export const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <section 
       id="hero"
@@ -28,7 +30,9 @@ export const HeroSection = () => {
             </p>
 
             <div className="pt-4 opacity-0 animate-fade-in-delay-5">
-              <button className="main-button">
+              <button 
+                className="main-button"
+                onClick={() => navigate('/e-book')}>
                 Read the E-Book
               </button>
             </div>

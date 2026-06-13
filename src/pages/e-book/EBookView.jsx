@@ -192,8 +192,13 @@ export const EBookView = () => {
           tocChanged={(tocArray) => setToc(tocArray)}
           epubOptions={{
             spread: 'none', 
-            allowScriptedContent: true,
-            allowPopups: true,
+            sandbox: [
+              'allow-same-origin',
+              'allow-scripts',
+              'allow-popups',
+              'allow-popups-to-escape-sandbox',
+              'allow-top-navigation'
+            ]
           }}
           readerStyles={customReaderStyles}
           getRendition={(rendition) => {

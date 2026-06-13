@@ -114,7 +114,7 @@ export const EBookView = () => {
       {/* Dedicated Fluid Reader Header */}
       <header className="w-full border-b border-border bg-background/80 backdrop-blur-md px-6 py-4 flex items-center justify-between z-30">
         <div className="flex items-center space-x-4">
-          <a href="/" className="text-xl font-bold text-primary hidden sm:flex items-center hover:opacity-90 transition-opacity">
+          <a href={import.meta.env.BASE_URL} className="text-xl font-bold text-primary hidden sm:flex items-center hover:opacity-90 transition-opacity">
             <span>
               <span className="text-glow text-foreground">Defense</span>Ready
             </span>
@@ -153,7 +153,7 @@ export const EBookView = () => {
         </div>
 
         <div className="flex items-center space-x-6">
-          <a href="/" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors duration-200">
+          <a href={import.meta.env.BASE_URL} className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors duration-200">
             Home
           </a>
           <div className="flex items-center scale-90">

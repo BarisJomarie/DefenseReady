@@ -1,4 +1,4 @@
-import { MessageCircle, Plus, X } from "lucide-react"; // Imported Plus and X icons
+import { MessageCircle, Plus, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -32,10 +32,9 @@ export const ForumPosts = ({ searchQuery }) => {
       comments: [] // Initialize with zero comments
     };
 
-    // Prepend the new post so it appears at the very top of the list!
+    // Prepend the new post so it appears at the very top of the list
     setFetchPosts((prevPosts) => [newPost, ...prevPosts]);
 
-    // Reset fields and close overlay
     setTitleInput("");
     setBodyInput("");
     setIsModalOpen(false);
@@ -49,8 +48,7 @@ export const ForumPosts = ({ searchQuery }) => {
 
   return (
     <section id="post-section" className="relative px-4 max-w-full mx-auto border-t border-border">
-      
-      {/* 3. Add Post Trigger Control Area */}
+      {/*ADd POST BUTton */}
       <div className="flex flex-row justify-between items-center mb-6 mt-4">
         <div>
           {searchQuery && (
@@ -99,20 +97,18 @@ export const ForumPosts = ({ searchQuery }) => {
         )}
       </div>
 
-      {/* 4. FORM OVERLAY POPUP MODAL */}
+      {/*FORM OVERLAY POPUP MODAL */}
       {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           
-          {/* Black Translucent Backdrop Overlay */}
+          {/* Backdrop Overlay */}
           <div 
             className="absolute inset-0 bg-black/60 backdrop-blur-xs transition-opacity" 
             onClick={() => setIsModalOpen(false)} 
           />
 
-          {/* Form Modal Content Window Box */}
+          {/* Form Modal Box */}
           <div className="relative bg-background border border-border w-full max-w-lg rounded-2xl shadow-xl p-6 z-10 animate-in fade-in zoom-in-95 duration-200">
-            
-            {/* Header / Close Button */}
             <div className="flex items-center justify-between border-b border-border pb-3 mb-4">
               <h3 className="text-lg font-bold text-foreground">Create a New Forum Post</h3>
               <button 
@@ -149,7 +145,7 @@ export const ForumPosts = ({ searchQuery }) => {
                 />
               </div>
 
-              {/* Form Action Controls */}
+              {/* Form Controls */}
               <div className="flex justify-end gap-3 pt-2 border-t border-border">
                 <button 
                   type="button"

@@ -29,11 +29,16 @@ export const HeroSection = () => {
               A practical guide towards your successful capstone defense.
             </p>
 
-            <div className="pt-4 opacity-0 animate-fade-in-delay-5">
+            <div className="pt-4 opacity-0 animate-fade-in-delay-5 flex flex-row gap-4 justify-center">
               <button 
                 className="main-button"
                 onClick={() => navigate('/e-book')}>
                 Read the E-Book
+              </button>
+              <button 
+                className="secondary-button"
+                onClick={() => navigate('/forums')}>
+                Forums
               </button>
             </div>
           </div>

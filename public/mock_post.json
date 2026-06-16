@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "username": "Klasik",
+    "post-head": "Kabet Lyrics",
+    "post-body": "Sa puso ko'y nag-iisa. Kahit mayroong iba. Kahit hindi tama ang ginagawa, sinta. Basta ba'y makasama lang kita. Kahit kapiling mo pa siya. At huwag nang mangamba. Kahit sabihin na kalimutan ka. 'Di ko 'to makakaya. Basta ba'y makasama lang kita. Kahit kapiling mo pa siya",
+    "comments": [
+      {
+        "id": 1,
+        "username": "Me",
+        "comment-body": "It really hurts"
+      },
+      {
+        "id": 2,
+        "username": "Myself",
+        "comment-body": "Ang magmahal ng ganito"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "FullStackMovers",
+    "post-head": "System crashed 5 mins before Title Defense",
+    "post-body": "We were doing a final run-through and suddenly our database connection dropped because of a local network issue. The panel is logging in now. Please pray for our group, my hands are shaking.",
+    "comments": [
+      {
+        "id": 1,
+        "username": "KuyaGrad",
+        "comment-body": "Restart your local server immediately and prepare a backup video recording just in case!"
+      },
+      {
+        "id": 2,
+        "username": "DebugDemon",
+        "comment-body": "The classic demo effect. Stay calm, you guys got this!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "username": "ThesisLeader_01",
+    "post-head": "How to handle a toxic panelist?",
+    "post-body": "We have this one panelist who keeps attacking our scope even though our adviser approved it weeks ago. He wants us to integrate an entire AI prediction module into a simple inventory system. How do we say 'no' politely?",
+    "comments": [
+      {
+        "id": 1,
+        "username": "AdviserSide",
+        "comment-body": "Use your adviser as a shield. Say: 'We will consult our adviser regarding the feasibility of this feature within our current timeframe.'"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "username": "NoSleepClub",
+    "post-head": "3 days straight coding before Final Defense",
+    "post-body": "Our lead programmer ghosted us and we had to rewrite the entire payment gateway integration. I haven't slept since Tuesday and our defense is at 8:00 AM today. Wish us luck.",
+    "comments": []
+  },
+  {
+    "id": 5,
+    "username": "DocumentationHater",
+    "post-head": "Chapter 4 and 5 alignment check",
+    "post-body": "Does your system flow chart exactly match the actual user roles in your live system demo? Our panelist explicitly warned us that if they spot even one button in the system that isn't documented in Chapter 4, it's an automatic revision.",
+    "comments": [
+      {
+        "id": 1,
+        "username": "GrammarCop",
+        "comment-body": "Yes, make sure your data dictionary matches your database schema exactly!"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "username": "UI_Enthusiast",
+    "post-head": "Panel complained about CSS layout colors",
+    "post-body": "During our pre-defense, a panelist literally told us our dashboard looks 'too dark and depressing' and might cause user fatigue. We spent a week choosing a clean dark-mode palette. Do we really need to change it back to basic white?",
+    "comments": [
+      {
+        "id": 1,
+        "username": "DesignTito",
+        "comment-body": "Just add a light/dark mode toggle. Boom, instant brownie points for extra features."
+      },
+      {
+        "id": 2,
+        "username": "Minimalist",
+        "comment-body": "Never argue with the panel about aesthetics. Just make it look corporate."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "username": "GitMaster",
+    "post-head": "Merge conflict ruined the project repository",
+    "post-body": "My groupmate tried pushing their code directly to the main branch right before the local simulation test. Everything is broken. Git tracking shows 45 conflicts. I want to cry.",
+    "comments": []
+  },
+  {
+    "id": 8,
+    "username": "TechAnalyst",
+    "post-head": "Why did you choose React over Flutter?",
+    "post-body": "Anticipating this question for our cross-platform mobile capstone application. What's the best academic justification for choosing our stack besides 'because we already know how to use it'?",
+    "comments": [
+      {
+        "id": 1,
+        "username": "DevSenior",
+        "comment-body": "Focus on the ecosystem size, community support, and faster prototyping turnaround times for web/mobile synchronization."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "username": "MaritesNgIT",
+    "post-head": "Group 3 got a Re-Defense grade today",
+    "post-body": "Narinig ko galing sa computer lab, pinabalik daw sila kasi hindi gumagana yung core SMS notification feature nila nung binalikan ng chairman. Ang higpit talaga ni Sir Reyes ngayong taon.",
+    "comments": [
+      {
+        "id": 1,
+        "username": "IskoGrad",
+        "comment-body": "Deserved naman. Hindi sila nag-load test, na-block tuloy yung API keys nila during simulation."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "username": "HardwareGuy",
+    "post-head": "IoT Capstone: Sensor fried on defense morning",
+    "post-body": "Our Arduino gas sensor shorted out because of a loose jumper wire connection. Our defense slot is in 2 hours. Is there any electronics shop open near the university right now?!",
+    "comments": [
+      {
+        "id": 1,
+        "username": "RaonWarrior",
+        "comment-body": "Takbo ka agad sa pinakamalapit na tinda sa tapat ng campus o hiram ka sa lower years!"
+      },
+      {
+        "id": 2,
+        "username": "EE_Lover",
+        "comment-body": "Always buy spare components for capstone projects. Golden rule 'yan."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "username": "Statistician_PH",
+    "post-head": "Sample size validation for user testing",
+    "post-body": "We only managed to gather 30 respondents for our system usability scale (SUS) survey evaluation because the target barangay was inaccessible. Will the panel accept this as a valid benchmark?",
+    "comments": []
+  },
+  {
+    "id": 12,
+    "username": "PresentationPro",
+    "post-head": "Best structure for Capstone Slide Deck",
+    "post-body": "Keep your slides strictly focused on the problem statement, objectives, scope boundaries, and the live architecture deployment layout. Don't waste 10 minutes reading your entire literature review word-for-word.",
+    "comments": [
+      {
+        "id": 1,
+        "username": "PanelChair",
+        "comment-body": "As a panelist, yes please! Show us the system demo within the first 7 minutes if possible."
+      },
+      {
+        "id": 2,
+        "username": "Grad2025",
+        "comment-body": "Put your extra diagrams in the appendix slides for quick QA fallback references."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "username": "FreeRiderHunter",
+    "post-head": "Dropping a groupmate right before final printing",
+    "post-body": "Our documentation member didn't contribute a single coherent paragraph for Chapter 3 and missed all group meetings. We are planning to remove her name from the final manuscript submission. Am I being too harsh?",
+    "comments": [
+      {
+        "id": 1,
+        "username": "JusticeServed",
+        "comment-body": "Do it. Capstone is a collective effort, hindi 'to charity ride para sa graduation profile."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "username": "SecurityFirst",
+    "post-head": "Password encryption standards check",
+    "post-body": "Friendly reminder to check your database setups before showing them to the panel. If they see plain text passwords like '123456' inside your User Accounts table schema view, they will destroy your security section rating.",
+    "comments": []
+  },
+  {
+    "id": 15,
+    "username": "FrameworkFanatic",
+    "post-head": "Using mock data during live system presentation",
+    "post-body": "Is it fine to use pre-filled mock entries for our data charts dashboard during the demo, or does the panel expect us to input entries completely from scratch right in front of them?",
+    "comments": [
+      {
+        "id": 1,
+        "username": "SeniorDev",
+        "comment-body": "Pre-fill it! An empty dashboard during a presentation looks terrible and broken."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "username": "ScopeCreepSurvivor",
+    "post-head": "Passed with Minor Revisions! 🎉",
+    "post-body": "After 8 months of crying, coding errors, and system refactoring, we finally passed our Capstone 2 presentation! The panel just wants us to clean up our input validations and format the data reports into downloadable PDFs.",
+    "comments": [
+      {
+        "id": 1,
+        "username": "Freshie_IT",
+        "comment-body": "Congratulations, seniors! Inspiring stuff. Sana kami rin pagdating ng araw."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "username": "ClientLiaison",
+    "post-head": "Missing Certificate of Acceptance from client",
+    "post-body": "Our beneficiary company manager went out of town on a business trip and can't sign our deployment forms before the submission cutoff. Will the dean allow a digital email confirmation as a temporary replacement?",
+    "comments": []
+  },
+  {
+    "id": 18,
+    "username": "QA_Tester",
+    "post-head": "System broken on Safari and iOS devices",
+    "post-body": "Our responsive web application layout looks pixel-perfect on Chrome and Android web browsers, but the layout completely breaks on iPhones because of an un-supported CSS grid property. Our panel chair uses a Mac. Help!",
+    "comments": [
+      {
+        "id": 1,
+        "username": "AppleDev",
+        "comment-body": "Add webkit vendor prefixes to your layout styles immediately or borrow a Windows laptop for the display demo."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "username": "TitoNgIT",
+    "post-head": "Anong paboritong pagkain ng Capstone Panelist?",
+    "post-body": "Edi ba... 'REVISION' ... Yung may maraming sili para ramdam mo talaga yung anghang at pait hanggang dulo ng evaluation grading matrix sheet mo.",
+    "comments": [
+      {
+        "id": 1,
+        "username": "StressedStudent",
+        "comment-body": "Benta bwisit hahahaha sumakit lalo yung ulo ko habang nag-aayos ng code."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "username": "CloudDeployer",
+    "post-head": "Hosting on Vercel/Render vs Localhost demo",
+    "post-body": "Is it worth spending money to host our system backend live online for the defense, or is showcasing everything locally via a network switch completely acceptable for grading?",
+    "comments": [
+      {
+        "id": 1,
+        "username": "SysAdmin",
+        "comment-body": "Localhost is safer. If the university campus internet connection slows down, your cloud app will lag during the demo."
+      }
+    ]
+  }
+]

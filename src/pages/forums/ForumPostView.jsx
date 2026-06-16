@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react"
 import { ForumNavBar } from "./ForumNavBar"
 import { Link, useParams } from "react-router-dom";
-import { ArrowLeft, MessageCircle, Send } from "lucide-react"; // Imported Send icon
+import { ArrowLeft, MessageCircle, Send } from "lucide-react";
 
 export const ForumPostView = () => {
   const { id } = useParams();
   const [post, setPost] = useState(null);
   const [loading, setLoading] = useState(true);
   
-  // 1. State to track the local comment input field text
+  // State to track the local comment input field text
   const [commentText, setCommentText] = useState("");
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export const ForumPostView = () => {
       });
   }, [id]);
 
-  // 2. Function to push a comment directly into your active post state
+  // Function to push a comment directly into your active post state
   const handleSubmitComment = (e) => {
     e.preventDefault();
     if (!commentText.trim()) return; // Prevent posting empty spaces
@@ -43,7 +43,7 @@ export const ForumPostView = () => {
       comments: prevPost.comments ? [...prevPost.comments, newComment] : [newComment]
     }));
 
-    setCommentText(""); // Reset text field after successful submit
+    setCommentText("");
   };
 
   if (loading) return <div className="text-center py-20 text-muted-foreground">Loading post...</div>;
@@ -75,7 +75,7 @@ export const ForumPostView = () => {
             Comments ({post.comments ? post.comments.length : 0})
           </h2>
 
-          {/* 3. The New Interactive Form Layout */}
+          {/*Interactive Form Layout */}
           <form onSubmit={handleSubmitComment} className="flex gap-2 w-full items-center my-4">
             <input 
               type="text"
